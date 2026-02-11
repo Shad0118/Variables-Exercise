@@ -7,7 +7,12 @@
             int myAge = 24;
             string myName = "Reashad Zaman";
             double myHeight = 5.7;
-            Console.WriteLine($"My name is {myName}, I am {myAge} years old, my height is {myHeight} feet.");
+            decimal myWeight = 160.2M;
+            char myLastName = 'Z';
+            Console.WriteLine($"My name is {myName}, I am {myAge} years old, my height is {myHeight} feet, my weight is {myWeight} pounds, my Last name starts with {myLastName}");
+            
         }
+
+       
     }
 }
